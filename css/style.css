@@ -1,0 +1,575 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 31.5rem;
+    background: #F1F3Ff;
+    /* border: 1px solid rgb(194, 35, 35); */
+    display: flex;
+    flex-direction: column;
+    
+
+    
+}
+
+/* ..navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 36px;
+    width: auto;
+    align-items: center;
+    margin: 2em 10% 1em 10%;
+    background: transparent; /* Add this line to make the background transparent */
+.navbar-nav{
+    white-space: nowrap;
+}
+
+.bttnR{
+    background-color: #5CB85F;
+    
+}
+
+
+
+
+.regis{
+    color: #FFFFFF;
+    background: #5CB85F;
+    border: transparent;
+    width: 6em;
+    height: 2em;
+    border-radius: 5px;
+}
+
+.link {
+    /* background-color: slategray; */
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    /* width: 20rem;
+    justify-content: center;
+    align-items: center; */
+}
+
+.link a {
+    text-decoration: none; /* Menghapus garis bawah */
+    color: inherit; /* Menyamakan warna teks dengan teks normal */
+}
+
+.section {
+    /* border: 1px solid black; */
+    height: 407px;
+    margin-top: auto; /* Menempelkan elemen .section ke bawah */
+    display: flex;
+}
+
+.section div {
+   
+    width: 50%;
+    /* border: 3px solid blue; */
+
+}
+
+
+.content1{
+   /* padding-top: 8em;
+    display: flex;
+    flex-direction: column; */
+    padding: 4em 0px 6em 9em;
+   
+}
+
+.content1 h1{
+    font-size: 2.5em;
+    margin: 0px;
+}
+
+
+
+
+
+.content2{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    
+}
+
+
+
+.buttonMulaiSewa{
+    color: white;
+    background: #5CB85F;
+    border: 0px solid;
+    height: 36px;
+    width: 140px;
+}
+
+.content2 img {
+    width: 42em; 
+    height: auto; 
+    
+}
+
+
+.blockBestCar{
+    margin-top: 4rem;
+    /* border: 4px solid fuchsia; */
+    width: 1150px;
+    height: 428px;
+    display: flex;
+   margin: 4rem auto;
+   display: flex;
+    
+    
+
+}
+
+.blockBestCar div {
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid black; */
+    
+    
+}
+
+.bestCarIsi p {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}
+
+.bestCarIsi img{
+    width: 25px; 
+    height: auto; 
+    /* padding-top: 4px; */
+}
+
+
+.blockWhyUs {
+    margin: 5em auto;
+    width: 1300px;
+    height: 340px;
+    /* border: 1px solid forestgreen; */
+    /* agar tidak Keluar garis */
+}
+
+.whyIsi {
+    height: 230px;
+    width: 1300px;
+    /* border: 1px solid firebrick; */
+    
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.whyIsi div{
+    border: 3px solid #D0D0D0;
+    width: 290px;
+    
+  
+    border-radius: 10px;
+}
+.whyIsi h3{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0.4em 0px;
+}
+
+.why1, .why2 , .why3 , .why4{
+    padding: 1.5em 1.5em;
+}
+
+.blockTestimonial{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin-bottom: 8rem;
+
+}
+
+.textT{
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.owl-carousel {
+    width: 100%; /* Sesuaikan dengan lebar total semua item */
+    height: 270px;
+    
+  
+  }
+
+.owl-carousel .item {
+  width: 1000px;
+  height: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F1F3FF; /* Ganti dengan warna latar belakang yang sesuai */
+}
+
+
+
+.owl-item{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-item{
+    display: flex;
+    /* border: 1px solid seagreen; */
+}
+
+.imgItem{
+    width: 220px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+
+.textT{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:start;
+}
+
+.textT img{
+    
+    height: 15px;
+    margin-bottom: 8px;   
+ 
+}
+
+.textT P{
+    font-weight: 400;
+    padding-right: 20px;
+}
+
+
+
+.iconB{
+    display: flex;
+}
+
+
+/* Banner */
+.banner{
+    border: 1px solid blueviolet;
+    height:300px ;
+    width: 1300px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #0D28A6;
+}
+
+.banner h1 {
+    color: whitesmoke;
+    margin-top: 1.5em;
+
+}
+
+.banner p {
+    color: whitesmoke;
+    width: 468px;
+    height: 40px;
+
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.banner button{
+    margin-top: 1.5em;
+    width: 150px;
+    height: 39px;
+    background-color: #5CB85F;
+    color: whitesmoke;
+    border-radius: 5px;
+    
+}
+
+/* Frequently Asked Question */
+.blockFAQ{
+    /* border: 1px solid green; */
+    width: 1300px;
+    height: 334px;
+    margin: 6rem auto 8rem auto;
+    display: flex;
+
+}
+
+.blockFAQ section{
+    /* border: 1px solid blueviolet; */
+    width: 50%;
+    height: 100%;
+}
+
+.teksFAQ h2{
+    margin: 0px;
+
+}
+
+.accordion-item{
+    margin-bottom: 10px;
+    
+}
+.mangteks{
+    font-weight: bold;
+}
+
+
+
+
+
+/* Footer */
+
+.blockFooter{
+    margin: 4em auto;
+    width: 1141px;
+    height: 140px;
+    /* border: 1px solid sienna; */
+    display: flex;
+}
+
+.blockFooter div{
+    /* border: 1px solid gray; */
+    height: 100%;
+    width: 25%;
+}
+
+.blockFooter p{
+    margin: 0px;
+}
+
+.fitur {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 5em;
+    
+
+}
+
+.fitur a{
+    text-decoration: none; /* Menghapus garis bawah */
+    color: inherit; /* Menyamakan warna teks dengan teks normal */
+    font-weight: bold;
+    
+}
+.sosmed{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sosmedIcon {
+    /* border:1px solid fuchsia; */
+    display: flex;
+    width: 100%;
+    height: 32px;
+    gap: 20px;
+
+}
+
+.footerLogo{
+    display: flex;
+    padding-left: 4em;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.logo2{
+    width: 100px;
+    height: 34px;
+    /* border: 1px solid red; */
+    background: blue
+}
+
+
+@media screen and (max-width: 362px){
+.navbar .link{
+    display: none;
+    margin: 0;
+}
+
+
+
+
+.section{
+    flex-direction: column;
+}
+
+.link{
+    display: none;
+}
+
+.section div {
+   
+    width: 100%;
+    /* border: 3px solid blue; */
+
+}
+
+.content1{
+    padding: 0px 1em;
+}
+
+.content2 img{
+    margin-top: 1em;
+    width: 90vw;
+   
+}
+
+.blockBestCar{
+    margin-top: 15em;
+    /* border: 1px solid blue; */
+    flex-direction: column;
+    gap: 35px;
+    height: 100%;
+    padding: 0px 0.5em;
+}
+
+
+
+.bestCarFoto img{
+    width: 90vw;
+}
+
+.bestCarIsi{
+    width: 100%;
+}
+
+.blockWhyUs {
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 1100px;
+    margin: 0px;
+   /* Remove the max-height constraint */
+/* Allow content to scroll if necessary */
+  }
+  
+  .whyIsi {
+    /* border:1px solid gold; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    max-height: none; /* Remove the max-height constraint */
+  }
+
+.textT2{
+    margin: 0px 10px;
+    text-align: center;
+}
+
+.blockTestimonial{
+    margin-top: 1em;
+    /* border: 1px solid rebeccapurple; */
+    
+  
+}
+.textT p{
+    font-size: 10px;
+    padding: 0px;
+    text-align: center;
+}
+    
+
+    
+.custom-item{
+    /* border: 1px solid crimson; */
+    flex-direction: column;
+   
+    height: 100px;
+}
+
+.textT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgItem{
+    border: 1px solid green;
+    width: 100px;
+}
+.imgItem img{
+    width: 10px;
+}
+
+.banner {
+    width: 80vw;
+    border-radius: 10px;
+}
+.banner h1 {
+    text-align: center;
+}
+.banner p{
+    padding: 0px 100px;
+}
+
+.blockFAQ{
+    width: 90vw;
+    height:100%;
+    flex-direction: column;
+    align-items: start;
+    
+}
+.mangteks{
+    width: 90vw;
+}
+
+
+.blockFAQ p {
+    width: 90vw;
+    text-align: center;
+}
+.listFAQ button{
+    width: 90vw;
+}
+
+.blockFooter{
+    width: 90vw;
+    height: 100%;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
+.fitur{
+    padding: 1em 0px;
+    align-items: start;
+}
+
+.footerLogo{
+    padding: 1em 0px;
+}
+
+
+
+
+
+
+}
